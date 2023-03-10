@@ -1,0 +1,70 @@
+
+<section class="page">
+    <aside>
+        <h3>Oi tomas, estamos feliz por voltares!</h3>
+        <p>Nova forma de arender a usar as midias social e streem.
+            <small class="break"></small>
+            Estamos com 2 niveis de aprendizado para acompanhares. <a href="">Saber mais</a>
+        </p>
+        <a href="" class="link">Iniciar Lição</a>
+    </aside>
+
+
+    <article>
+        <div class="row">
+            <h5>Classes</h5>
+            <span>Outras <i class="bi bi-right-o"></i></span>
+        </div>
+
+        <ul class="items-classe">
+            <li for="10">
+                <h3></h3>
+                <div class="alunos-img">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="pasta">
+                    <i class="bi bi-folder"></i>
+                    <span>10 Ficheiros</span>
+                </div>
+                <div class="legenda">
+                    <i class="bi bi-laptop"></i>
+                    <span>Professor tomasmnuel</span>
+                </div>
+            </li>
+        </ul>
+
+        <div class="row">
+            <h5>Classes</h5>
+            <span>Outras <i class="bi bi-right-o"></i></span>
+        </div>
+
+        <table>
+            <tr>
+                <th>Classe</th>
+                <th>Professor</th>
+                <th>Membros</th>
+                <th>Inicio</th>
+                <th>Material</th>
+                <th>Pagamento</th>
+            </tr>
+            <tr>
+                <td>A1</td>
+                <td>Tomas Manuel</td>
+                <td>
+                    <div class="alunos-img">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                </td>
+                <td>17.01.2023</td>
+                <td>Baixar</td>
+                <td>Completo</td>
+            </tr>
+        </table>
+    </article>
+</section>

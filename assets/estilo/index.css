@@ -1,0 +1,218 @@
+@import url("icons.css");
+@font-face {
+  font-family: "Lato";
+  src: url("Lato.ttf");
+}
+
+@font-face {
+  font-family: "Poppin";
+  src: url("Poppins.ttf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-weight: 500;
+  font-family: Poppin;
+  word-break: keep-all;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  --color1: #3c5063;
+  --color2: #fa4a4d;
+  --padrao: #ffc10e;
+  --color4: #3db9ec;
+  --color5: #388e3c;
+  --color6: #222332;
+  --color7: #1a1b1e;
+  --atual: #fff;
+  overflow-x: hidden;
+  background: #e6e6e6;
+  padding: 3rem;
+}
+
+::scrollbar {
+  width: 0px !important;
+}
+
+*::scrollbar {
+  width: 0px !important;
+}
+
+*::-webkit-scrollbar {
+  width: 0px !important;
+}
+
+*::-moz-scrollbar {
+  width: 0px !important;
+}
+
+*::-ms-scrollbar {
+  width: 0px !important;
+}
+
+*::-moz-osx-scrollbar {
+  width: 0px !important;
+}
+
+*::-o-scrollbar {
+  width: 0px !important;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header .form-buscar {
+  width: 30%;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  background: #ccc;
+  border-radius: .5rem;
+}
+
+@media (max-width: 768px) {
+  .header .form-buscar {
+    width: 50%;
+  }
+}
+
+.header .form-buscar i {
+  z-index: 1;
+  width: 44px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  align-items: center;
+  background: #607d8b;
+  vertical-align: middle;
+  justify-content: center;
+  border-radius: .5rem;
+}
+
+.header .form-buscar input {
+  left: 0px;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: .5rem;
+  padding-left: 3.5rem;
+  position: relative;
+  background: transparent;
+}
+
+@media (max-width: 768px) {
+  .header span {
+    font-size: .8rem;
+  }
+}
+
+.lista {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.lista a {
+  margin: 0 1rem;
+}
+
+.lista a:first-child {
+  margin: 0px !important;
+}
+
+td {
+  text-align: center;
+}
+
+th {
+  font-weight: 900;
+}
+
+tr td i {
+  cursor: pointer;
+  margin: 0 .2rem;
+}
+
+tr:last-child td {
+  padding: .5rem;
+  font-weight: 900;
+  text-align: right;
+}
+
+tr:last-child td span {
+  font-weight: 700;
+}
+
+input, select {
+  outline: none;
+  border: none;
+  padding: .8rem .3rem;
+  border-radius: .3rem;
+}
+
+.form {
+  padding: 1rem 0;
+  margin-block: 2rem;
+}
+
+.form button {
+  padding: .8rem;
+  cursor: pointer;
+  margin: .5rem 0;
+}
+
+.page aside {
+  display: block;
+  color: #fff;
+  padding: 2rem;
+  margin-block: 2rem;
+  border-radius: .5rem;
+  background: #3c5063;
+  position: relative;
+}
+
+.page aside h3 {
+  padding: .5rem 0;
+  font-weight: 800;
+  font-size: 1.6rem;
+  font-family: Lato !important;
+}
+
+.page aside p {
+  font-weight: 400;
+}
+
+.page aside p a {
+  color: #fff;
+  font-weight: 600;
+}
+
+.page aside p .break {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .page aside p .break {
+    display: inline-block;
+  }
+}
+
+.page aside .link {
+  color: #fff;
+  padding: 1rem;
+  margin-block: 1rem;
+  display: inline-block;
+  background: #1a1b1e;
+  border-radius: .8rem;
+}
